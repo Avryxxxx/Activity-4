@@ -30,15 +30,6 @@ CREATE TABLE appointments (
     FOREIGN KEY (animalid) REFERENCES animals(animalid)
 );
 
-CREATE TABLE doctors(
-	doctorid INT PRIMARY KEY, 
-	dfirstname VARCHAR(50),
-	dlastname VARCHAR(50),
-	speciality VARCHAR(50), 
-	phone VARCHAR(15),
-	email VARCHAR(50)
-);
-
 CREATE TABLE invoices (
 	invoiceid INT PRIMARY KEY,
 	appointid INT,
