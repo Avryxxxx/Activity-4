@@ -135,3 +135,6 @@ VALUES
 ALTER TABLE owners
 ADD COLUMN registereddate DATE;
 
+ALTER TABLE owners
+ADD COLUMN registereddate DATE;
+
